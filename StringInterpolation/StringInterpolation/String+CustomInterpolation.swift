@@ -12,7 +12,7 @@ public enum LogPrivacy {
     case `public`
 }
 
-extension String.StringInterpolation {
+public extension String.StringInterpolation {
     
     mutating func appendInterpolation<T>(_ value: T, privacy: LogPrivacy = .private) {
         switch privacy {
