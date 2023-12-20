@@ -15,6 +15,7 @@
 		6800433C29F1130E002335CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6800433A29F1130E002335CF /* LaunchScreen.storyboard */; };
 		6800434429F11335002335CF /* String+CustomInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800434329F11334002335CF /* String+CustomInterpolation.swift */; };
 		6800434629F11363002335CF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800434529F11363002335CF /* Log.swift */; };
+		6817570B2B321DA6004D217F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817570A2B321DA6004D217F /* GameView.swift */; };
 		68455AEB2B18DE4D00D1BF8D /* StringInterpolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68455AEA2B18DE4D00D1BF8D /* StringInterpolationTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		6800433D29F1130E002335CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6800434329F11334002335CF /* String+CustomInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CustomInterpolation.swift"; sourceTree = "<group>"; };
 		6800434529F11363002335CF /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		6817570A2B321DA6004D217F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		68455AE82B18DE4C00D1BF8D /* StringInterpolationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringInterpolationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68455AEA2B18DE4D00D1BF8D /* StringInterpolationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolationTests.swift; sourceTree = "<group>"; };
 		68455AF12B1F99AC00D1BF8D /* StringInterpolationTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StringInterpolationTests; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		6800432329F1130D002335CF = {
 			isa = PBXGroup;
 			children = (
+				6817570A2B321DA6004D217F /* GameView.swift */,
 				68455AF12B1F99AC00D1BF8D /* StringInterpolationTests */,
 				6800432E29F1130D002335CF /* StringInterpolation */,
 				68455AE92B18DE4D00D1BF8D /* StringInterpolationTests */,
@@ -210,6 +213,7 @@
 				6800434429F11335002335CF /* String+CustomInterpolation.swift in Sources */,
 				6800433429F1130D002335CF /* ViewController.swift in Sources */,
 				6800433029F1130D002335CF /* AppDelegate.swift in Sources */,
+				6817570B2B321DA6004D217F /* GameView.swift in Sources */,
 				6800433229F1130D002335CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
