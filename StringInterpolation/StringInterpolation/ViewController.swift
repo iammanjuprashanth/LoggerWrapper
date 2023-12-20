@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Log().log(message: "logged in    user identifier \(userSensitiveIdentifier, privacy: .private)", level: .warning)
+        Log().log(message: "logged in  user identifier \(userSensitiveIdentifier, privacy: .private)", level: .warning)
         
     }
 }
